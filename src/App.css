@@ -1,7 +1,50 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+  --primary-color: #047857;
+  --ligh-grey: #E5E7EB;
 }
 
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td{
+  width: 10%;
+  height: 10%;
+  max-width: 10%;
+}
+
+table {
+  margin: auto;
+  background-color: white;
+  color: black;
+  width: 95%;
+}
+
+input{
+  width: 90%;
+  height: 2rem;
+  margin-bottom: 2rem;
+}
+
+button{
+  background-color: lightgreen;
+  padding: 0.5rem;
+}
+
+.Output{
+  margin-bottom: 15rem;
+}
+.App {
+  text-align: center;
+  max-width: 70%;
+  margin: auto;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 2rem;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
